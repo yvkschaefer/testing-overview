@@ -2,12 +2,23 @@
 // (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 import Vue from 'vue'
 import App from './App'
+import SlideOne from './components/SlideOne'
+import NotFound from './components/NotFound'
 
-Vue.config.productionTip = false
+const routes = {
+  '/': App,
+  '/1': SlideOne
+}
 
-/* eslint-disable no-new */
-new Vue({
+new Vue({ // eslint-disable-line no-new
   el: '#app',
-  components: { App },
-  template: '<App/>'
+  data: {
+    currentRoute: window.location.pathname
+  },
+  computed: {
+    ViewComponent () {
+      return routes[this.currentRoute] || NotFound
+    }
+  },
+  render (h) { return h(this.ViewComponent) }
 })

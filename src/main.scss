@@ -1,11 +1,32 @@
-#app {
+$mylo-blue: rgba(40,  150,  211, 1);
+* {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+}
+#app {
   margin-top: 60px;
   img {
-  height: 80px;
+  height: 18vh;
+  margin-top: 30vh;
+  }
+  h1, h2 {
+   font-weight: normal;
+  }
+  a {
+    background-color: $mylo-blue;
+    text-decoration: none;
+    color: #FFF;
+    padding: 6px 15px;
+    border-radius: 2px;
+    font-size: 4vh;
+    font-weight: bold;
+  }
+  .hello-world {
+    h2 {
+      margin-bottom: 50px;
+    }
   }
 }
