@@ -9,6 +9,11 @@ import SlideFour from './components/SlideFour'
 import SlideFive from './components/SlideFive'
 import SlideSix from './components/SlideSix'
 import SlideSeven from './components/SlideSeven'
+import SlideEight from './components/SlideEight'
+import SlideNine from './components/SlideNine'
+import SlideTen from './components/SlideTen'
+import SlideEleven from './components/SlideEleven'
+import SlideTwelve from './components/SlideTwelve'
 import NotFound from './components/NotFound'
 
 const routes = {
@@ -19,7 +24,12 @@ const routes = {
   '/4': SlideFour,
   '/5': SlideFive,
   '/6': SlideSix,
-  '/7': SlideSeven
+  '/7': SlideSeven,
+  '/8': SlideEight,
+  '/9': SlideNine,
+  '/10': SlideTen,
+  '/11': SlideEleven,
+  '/12': SlideTwelve
 }
 
 new Vue({ // eslint-disable-line no-new
