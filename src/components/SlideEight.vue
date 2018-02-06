@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="main-slides">
     <Header />
     <a href="/9">
       <h1>Load</h1>

@@ -1,12 +1,12 @@
 <template>
-  <main>
+  <main class="main-slides">
     <Header />
     <a href="/3">
       <h1>Unit</h1>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>aims to provide coverage over the smallest testable part of an application</li>
+        <li>forms the basis for component testing</li>
+        <li>RN currently has: 4</li>
       </ul>
     </a>
   </main>

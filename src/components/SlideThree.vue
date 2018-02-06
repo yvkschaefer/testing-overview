@@ -1,12 +1,12 @@
 <template>
-  <main>
+  <main class="main-slides">
     <Header />
     <a href="/4">
       <h1>Snapshot</h1>
       <ul>
-        <li>1</li>
-        <li>2</li>
-        <li>3</li>
+        <li>with Jest</li>
+        <li>method: toMatchSnapshot()</li>
+        <li>run and re-run test suites</li>
       </ul>
     </a>
   </main>

@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="main-slides">
     <Header />
     <a href="/7">
       <h1>Performance</h1>
