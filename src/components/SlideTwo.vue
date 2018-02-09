@@ -8,6 +8,9 @@
         <li>forms the basis for component testing</li>
         <li>RN currently has: 4</li>
       </ul>
+      <p>coming soon to pre-commit hook:
+        <span>$jest --bail --findRelatedTests</span>
+      </p>
     </a>
   </main>
 </template>
@@ -23,4 +26,14 @@ export default {
 
 <style lang="scss" scoped>
 @import '../main.scss';
+p {
+  font-size: 25px;
+}
+span {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 2vh 2vw;
+  color: rgba(255, 252, 51, 0.9);
+  font-family: 'Andale Mono';
+  font-size: 30px;
+}
 </style>
