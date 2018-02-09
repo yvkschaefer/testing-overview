@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="main-slides">
     <Header />
     <h1>Thanks!</h1>
   </main>
