@@ -4,9 +4,10 @@
     <a href="/6">
       <h1>Regression</h1>
       <ul>
-        <li>After a bug is fixed and patch released, regression test for that specific occurence should be written and run in QA to ensure bug does not return</li>
-        <li>existing tests can be altered to capture the regression</li>
-        <li></li>
+        <li>Verifies software still runs as expected after it was changed or interfaced with other software</li>
+        <li>Write tests, esp functional</li>
+        <li>Run & re-run tests</li>
+        <li>Jest & Detox</li>
       </ul>
     </a>
   </main>
