@@ -24,8 +24,8 @@ export default {
 
 <style lang="scss" scoped>
 @import '../main.scss';
-.imageTitle{
-  padding-bottom:40px;
-
+img {
+  padding-bottom: 40px;
+  margin-top: -60px;
 }
 </style>
